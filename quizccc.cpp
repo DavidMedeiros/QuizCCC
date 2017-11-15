@@ -69,9 +69,9 @@ void imprimirTabuleiro() {
 			if(tabuleiro[x][y].value == -1) {
 				printf(" x |");
 			}
-			// se o valor ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© 0, essa casa eh um buraco
+			// se o valor for 0, eh um buraco, caso queira visualizar o buraco coloque um asterisco abaixo
 			else if(tabuleiro[x][y].value == 0) {
-				printf(" * |");
+				printf("  |");
 			}
 			// espaco em branco
 			else if(tabuleiro[x][y].value == 1) {
