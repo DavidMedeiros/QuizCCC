@@ -71,7 +71,7 @@ void imprimirTabuleiro() {
 			}
 			// se o valor for 0, eh um buraco, caso queira visualizar o buraco coloque um asterisco abaixo
 			else if(tabuleiro[x][y].value == 0) {
-				printf("  |");
+				printf("   |");
 			}
 			// espaco em branco
 			else if(tabuleiro[x][y].value == 1) {
